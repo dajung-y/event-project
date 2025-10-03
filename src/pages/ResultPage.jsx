@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Loading from '../components/results/Loading'
 import Layout from '../components/Layout';
-import result from '../assets/images/result.png';
+import result from '../assets/images/resultPoster.png';
 
 export default function ResultPage() {
   const [isLoading, setIsLoading] = useState(true);
