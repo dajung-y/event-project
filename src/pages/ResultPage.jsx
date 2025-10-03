@@ -20,6 +20,7 @@ export default function ResultPage() {
             src={result}
             alt='결과 이미지'
             className='w-full h-screen object-cover'
+            loading='eager'
         />
         </div>   
       )}

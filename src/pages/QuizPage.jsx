@@ -31,6 +31,7 @@ export default function QuizPage() {
           src={questions[step].img}
           alt={`문제 ${step+1}`}
           className='w-full h-screen object-cover'
+          loading='eager'
         />
         {/* 버튼 */}
         <div className="absolute bottom-10 left-0 w-full px-6 space-y-4">

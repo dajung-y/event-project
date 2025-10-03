@@ -7,6 +7,7 @@ export default function Loading() {
         src={img}
         alt='로딩 이미지'
         className='w-full h-screen object-cover'
+        loading='eager'
         />
     </div>
   );
